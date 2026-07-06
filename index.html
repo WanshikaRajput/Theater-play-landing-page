@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Theater Play</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar" aria-label="Main Navigation">
+
+    <div class="logo">
+        🎭 Theater Play
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <button id="themeBtn" aria-label="Toggle Dark Mode">
+        🌙
+    </button>
+
+</nav>
+
+</header>
+
+<main>
+<section id="home" class="hero">
+
+    <div class="hero-left">
+
+        <span class="tagline">
+            🎭 Theater Play Solutions
+        </span>
+
+        <h1>
+            Modern Digital Solutions
+            <br>
+            for Theater Management
+        </h1>
+
+        <p>
+            Streamline operations, manage records efficiently, and
+            empower your team with secure, responsive digital solutions
+            designed for modern theater organizations.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#contact"
+   class="btn"
+   aria-label="Go to Contact Form">
+    Get Started
+</a>
+
+            <a href="#about" class="btn secondary-btn">
+                Learn More
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="img/hero.svg"
+     alt="Digital theater management illustration">
+
+    </div>
+
+</section>
+
+
+<section id="about" class="about">
+
+    <div class="about-text">
+
+        <h2>About Us</h2>
+
+        <p>
+            Theater Play helps organizations replace manual processes
+            with secure, reliable and responsive digital solutions that
+            improve productivity and simplify everyday operations.
+        </p>
+
+        <div class="about-features">
+
+            <div class="feature">
+                ✅ Secure Digital Records
+            </div>
+
+            <div class="feature">
+                ⚡ Fast & Responsive
+            </div>
+
+            <div class="feature">
+                👥 Easy Team Collaboration
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about-image">
+
+        <img src="img/hero.svg"
+             alt="About Theater Play">
+
+    </div>
+
+</section>
+
+
+<section id="services"
+class="services">
+
+<h2>Our Services</h2>
+
+<div class="card">
+
+<div class="card-icon">📁</div>
+
+<h3>Digital Records</h3>
+
+<p>
+Organize all important information digitally with secure storage and quick access.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-icon">⚡</div>
+
+<h3>Fast Performance</h3>
+
+<p>
+Optimized for fast loading and seamless user experience across all devices.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-icon">🔒</div>
+
+<h3>Reliable Access</h3>
+
+<p>
+Secure and reliable access for every staff member with consistent performance.
+</p>
+
+</div>
+
+
+</section>
+
+
+<section class="loading-section">
+
+<button
+    id="loadBtn"
+    aria-label="Load sample data">
+    Simulate Loading
+</button>
+
+<div id="loader" class="loader hidden"></div>
+
+<p id="result"></p>
+
+<div id="emptyState" class="empty-state hidden">
+
+    📂 No data found.
+
+</div>
+
+</section>
+
+
+<section id="contact"
+class="contact">
+
+<h2>Contact Us</h2>
+<p>
+We'd love to hear from you. Fill out the form below and our team will get back to you.
+</p>
+
+<form id="contactForm" novalidate>
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+aria-label="Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email"
+aria-label="Email"
+required>
+
+<textarea
+id="message"
+placeholder="Message"
+aria-label="Message"
+required>
+
+</textarea>
+
+<button
+    type="submit"
+    aria-label="Send contact form">
+    Send Message
+</button>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+
+© 2026 Theater Play.
+All Rights Reserved.
+
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
